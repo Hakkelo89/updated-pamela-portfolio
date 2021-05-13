@@ -1,0 +1,290 @@
+/* box sizing details */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* main body with flex */
+main {
+  display: flex;
+}
+
+/* mainheading background colour and font */
+.mainheading {
+  background-color: #1d3557;
+  color: black;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* pamela dubb heading styles */
+.mainheading h2 {
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  color: #f1faee;
+  text-align: left;
+  margin: 10px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+/* all about me heading styles */
+.mainheading h4 {
+  font-family: "Bitter", serif;
+  font-family: "Cinzel", serif;
+  color: #f1faee;
+  text-align: left;
+  margin-top: 10px;
+  margin: 10px;
+  padding-top: 5px;
+}
+/* container details */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: right;
+}
+/* nav heading styles and alignment */
+.container a {
+  float: right;
+  color: #f1faee;
+  text-align: right;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+}
+/* container li details */
+.container li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+  position: relative;
+}
+
+/* colour for when hovered over links */
+.container A:hover {
+  background-color: #f1faee;
+  color: rgb(59, 58, 58);
+}
+
+.container a::before {
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #f1faee;
+  content: "";
+  position: absolute;
+  top: 0;
+  transition: all ease-in-out 250ms;
+}
+
+.container a:hover:before {
+  width: 100%;
+}
+/* photo alignment and shape */
+.photo {
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.photosection {
+  background-color: #a8dadc;
+  border: 2px solid whitesmoke;
+  text-align: center;
+  width: 100%;
+  border-color: black;
+}
+
+/* photo change when hovering  */
+.photo .image-back {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.photo .image-top {
+  border-radius: 50%;
+  display: none;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: ease-in-out;
+}
+
+.photo:hover .image-top {
+  display: block;
+  border-radius: 50%;
+}
+
+/* about me font styles and alignment */
+.aboutme h2 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.aboutme p {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.aboutme {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* main section alignment */
+.myprojects {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  background-color: rgb(252, 238, 223);
+  border: 2px solid whitesmoke;
+  width: 100%;
+  align-items: center;
+}
+
+/* first project size larger than other projects*/
+.horiseon {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* projects alignment and border style */
+.horiseon,
+.projectimage {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 4px;
+  position: relative;
+}
+
+/* other projects size smaller, equal with opacity as it is currently empty */
+.projectimage {
+  height: 200px;
+  width: 300px;
+  opacity: 0.5;
+  background-color: whitesmoke;
+  justify-content: center;
+  display: flex;
+}
+
+/* section font styles and alignment */
+section p {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  color: rgb(75, 74, 74);
+  margin-bottom: 2px;
+  text-align: center;
+  margin-top: 5px;
+}
+section h3 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(75, 74, 74);
+  margin-bottom: 5px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+section p1 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  color: rgb(75, 74, 74);
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5px;
+  line-height: 25px;
+}
+
+/* contact me section font styles and alignment */
+.contactme {
+  background-color: #55d6aa;
+}
+.personaldetails {
+  display: flex;
+  justify-content: center;
+  background-color: #55d6aa;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  color: rgb(75, 74, 74);
+  text-align: center;
+  padding: 10px;
+}
+
+/* icon size and alignment */
+.fa {
+  padding: 15px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/* icon style */
+.fa-instagram,
+.fa-github,
+.fa-linkedin {
+  color: antiquewhite;
+  display: flex;
+  flex: 50%;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+/* contact me heading style */
+div h2 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(75, 74, 74);
+  text-align: center;
+  padding: 20px;
+  display: block;
+}
+
+/* footer details  */
+footer {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+
+/* tablet viewport break-point (max-width 992px)*/
+@media screen and (max-width: 992px) {
+  .myprojects {
+    width: 100%;
+  }
+}
+
+/* mobile viewport break-point (max-width 768px)*/
+@media screen and (max-width: 400px) {
+  .myprojects {
+    width: 100%;
+  }
+}
