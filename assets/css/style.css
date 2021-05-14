@@ -1,4 +1,5 @@
-box sizing details * {
+/* box sizing details */
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -12,10 +13,13 @@ main {
 /* mainheading background colour and font */
 .mainheading {
   background-color: #1d3557;
-  color: black;
-  padding: 2px;
+  padding: 50px;
 }
 
+.logo {
+  background-size: cover;
+  background-position: bottom;
+}
 /* pamela dubb heading styles */
 .mainheading h2 {
   font-family: "Cinzel", serif;
@@ -23,7 +27,6 @@ main {
   color: #f1faee;
   text-align: center;
   margin: 10px;
-
   margin-top: 10px;
   padding-top: 5px;
 }
@@ -231,7 +234,7 @@ section p1 {
 .personaldetails {
   display: flex;
   justify-content: center;
-  background-color: #1d3557
+  background-color: #1d3557;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 24px;
   color: rgb(75, 74, 74);
@@ -292,11 +295,6 @@ footer {
     width: 100%;
   }
 }
-
-.cardcontainer {
-  background-color: #f5f7fa;
-}
-
 .blockquote-custom {
   position: relative;
   font-size: 1.1rem;
