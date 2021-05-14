@@ -1,5 +1,4 @@
-/* box sizing details */
-* {
+box sizing details * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -14,10 +13,7 @@ main {
 .mainheading {
   background-color: #1d3557;
   color: black;
-}
-
-img {
-  object-fit: cover;
+  padding: 2px;
 }
 
 /* pamela dubb heading styles */
@@ -25,8 +21,9 @@ img {
   font-family: "Cinzel", serif;
   font-size: 30px;
   color: #f1faee;
-  text-align: left;
+  text-align: center;
   margin: 10px;
+
   margin-top: 10px;
   padding-top: 5px;
 }
@@ -99,9 +96,14 @@ img {
 .photosection {
   background-color: #f5f7fa;
   border: 2px solid whitesmoke;
-  text-align: center;
+  text-align: left;
   width: 100%;
-  border-color: black;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
 }
 
 /* photo change when hovering  */
@@ -154,22 +156,24 @@ img {
 }
 
 /* main section alignment */
-/* .myprojects {
+.projectcards {
   text-align: center;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   display: flex;
-  background-color: rgb(252, 238, 223);
-  border: 2px solid whitesmoke;
+  background-color: #f5f7fa;
   width: 100%;
   align-items: center;
-} */
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+}
 
-/* first project size larger than other projects*/
-.horiseon {
-  width: 100%;
-  max-width: 600px;
+.card-title {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  border-top: 50px;
 }
 
 /* projects alignment and border style */
@@ -194,7 +198,7 @@ img {
 /* section font styles and alignment */
 section p {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   color: rgb(75, 74, 74);
   margin-bottom: 2px;
   text-align: center;
@@ -220,14 +224,14 @@ section p1 {
   line-height: 25px;
 }
 
-/* contact me section font styles and alignment */
+/*contact me section font styles and alignment */
 .contactme {
-  background-color: #55d6aa;
+  background-color: #1d3557;
 }
 .personaldetails {
   display: flex;
   justify-content: center;
-  background-color: #55d6aa;
+  background-color: #1d3557
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 24px;
   color: rgb(75, 74, 74);
