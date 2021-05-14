@@ -25,7 +25,6 @@ main {
   font-family: "Cinzel", serif;
   font-size: 30px;
   color: #f1faee;
-  text-align: center;
   margin: 10px;
   margin-top: 10px;
   padding-top: 5px;
@@ -103,12 +102,6 @@ main {
   width: 100%;
 }
 
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-}
-
 /* photo change when hovering  */
 .photo .image-back {
   border-radius: 50%;
@@ -134,15 +127,6 @@ article {
   border-radius: 50%;
 }
 
-/* about me font styles and alignment */
-.aboutme h2 {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-}
-
 .aboutme p {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 24px;
@@ -151,17 +135,10 @@ article {
   text-align: center;
 }
 
-.aboutme {
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* main section alignment */
 .projectcards {
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   display: flex;
@@ -186,16 +163,6 @@ article {
   padding: 10px;
   border-radius: 4px;
   position: relative;
-}
-
-/* other projects size smaller, equal with opacity as it is currently empty */
-.projectimage {
-  height: 200px;
-  width: 300px;
-  opacity: 0.5;
-  background-color: whitesmoke;
-  justify-content: center;
-  display: flex;
 }
 
 /* section font styles and alignment */
@@ -245,7 +212,6 @@ section p1 {
 /* icon size and alignment */
 .fa {
   padding: 15px;
-  font-size: 50px;
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -260,7 +226,6 @@ section p1 {
   flex: 50%;
   text-align: center;
   width: 100%;
-  display: inline-block;
 }
 /* contact me heading style */
 div h2 {
@@ -271,15 +236,6 @@ div h2 {
   text-align: center;
   padding: 20px;
   display: block;
-}
-
-/* footer details  */
-footer {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 24px;
-  color: black;
-  text-align: center;
-  padding: 5px;
 }
 
 /* tablet viewport break-point (max-width 992px)*/
