@@ -97,7 +97,7 @@ img {
 }
 
 .photosection {
-  background-color: #a8dadc;
+  background-color: #f5f7fa;
   border: 2px solid whitesmoke;
   text-align: center;
   width: 100%;
@@ -154,7 +154,7 @@ img {
 }
 
 /* main section alignment */
-.myprojects {
+/* .myprojects {
   text-align: center;
   flex-direction: column;
   justify-content: center;
@@ -164,7 +164,7 @@ img {
   border: 2px solid whitesmoke;
   width: 100%;
   align-items: center;
-}
+} */
 
 /* first project size larger than other projects*/
 .horiseon {
@@ -287,4 +287,25 @@ footer {
   .myprojects {
     width: 100%;
   }
+}
+
+.cardcontainer {
+  background-color: #f5f7fa;
+}
+
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -40px;
+  left: 19px;
 }

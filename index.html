@@ -15,26 +15,6 @@
       href="https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap=emboss"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Cinzel:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="path/to/font-awesome/css/font-awesome.min.css"
@@ -43,11 +23,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.4edebbf81f4a1f1bb8df.css">
   </head>
   <body>
     <!-- heading here-->
     <header id="mainheading" class="mainheading">
       <img src="./img/DUBB.png" />
+
       <!-- Insert nav here-->
       <div id="container" class="container">
         <nav>
@@ -82,83 +71,104 @@
         />
       </div>
       <!-- paragraph about me-->
-      <div id="aboutme" class="aboutme">
+      <div class="cardcontainer">
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+          
+          <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote blockquote-custom bg-white px-3 pt-4">
+                <div class="blockquote-custom-icon bg-info shadow-1-strong">
+                  <i class="fa fa-quote-right text-white"></i>
+                </div>
+                <p class="mb-0 mt-2 font-italic">
+                  "I'm currently working as a Scheme Project Manager at Network Rail's
+                  Safety Taskforce team, with the intention to progress further. I am
+                  also a student at University of Birmingham studying a full-stack web
+                  development coding bootcamp, graduating in Sept 2021. I am a very
+                  committed young individual who sets high standards in terms of my work
+                  and personal qualities. I relish the thought of continuous development
+                  within a job role and have a strong desire for making quality
+                  contributions, allowing myself to become a key player within any
+                  organisation. I am a clear communicator, which is highlighted in my
+                  ability to work well in a team. I also foster the confidence to work
+                  individually, allowing me to build on my interpersonal skills whilst
+                  eager to develop these skills further"
+                </p>
+                <footer class="blockquote-footer pt-4 mt-4 border-top">
+                  Someone famous in
+                  <cite title="Source Title">Source Title</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+          
+        </section>
+      </div>
         <h2>About me</h2>
         <p>
-          I'm currently working as a Scheme Project Manager at Network Rail's
-          Safety Taskforce team, with the intention to progress further. I am
-          also a student at University of Birmingham studying a full-stack web
-          development coding bootcamp, graduating in Sept 2021. I am a very
-          committed young individual who sets high standards in terms of my work
-          and personal qualities. I relish the thought of continuous development
-          within a job role and have a strong desire for making quality
-          contributions, allowing myself to become a key player within any
-          organisation. I am a clear communicator, which is highlighted in my
-          ability to work well in a team. I also foster the confidence to work
-          individually, allowing me to build on my interpersonal skills whilst
-          eager to develop these skills further
+          
         </p>
       </div>
     </section>
     <!-- main section for my projects via flexbox-->
     <!-- section for horiseon project-->
     <main>
-      <div id="myprojects" class="myprojects">
-        <section id="projects">
-          <h2>My Projects</h2>
-          <h3>Code Refactoring</h3>
-          <!-- link to github from image-->
-          <a href="https://github.com/PDUBB3/code-refactoring.git">
-            <!-- horiseon image-->
-            <img
-              class="horiseon"
-              src="./img/Horiseon.jpg"
-              alt="Horiseon project showing group of people at a desk using their laptops"
-            />
-          </a>
-          <p>
+      <div class="projectcards">
+      <div class="card">
+        <img
+          src="./img/Horiseon.jpg"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Code Refactoring </h5>
+          <p class="card-text">
             In this project, I was able to code refactor an existing site called
             Horiseon, to make it more accessible and optimized for search
             engines.
+            Skills used: HTML layout, CSS styling
           </p>
-          <p1> Skills used: semantic HTML, HTML layout, CSS styling </p1>
-        </section>
-        <!-- insert section for project 2-->
-        <section id="projects">
-          <h3>Project 2</h3>
-          <!-- insert project 2 image-->
+          <a href="#!" class="btn btn-primary">Git repo</a>
+        </div>
+
+        <div class="card">
           <img
-            class="projectimage"
-            src="./assets/images/p1.jpg"
-            alt="cartoon image of women with clipboard surrounded by project info"
+            src="./img/sc1.png"
           />
-          <p>Ongoing project.</p>
-          <p1> Skills used: = </p1>
-        </section>
-        <!-- insert section for project 3-->
-        <section id="projects">
-          <h3>Project 3</h3>
-          <!-- insert project 3 image-->
-          <img
-            class="projectimage"
-            src="./assets/images/p2.png"
-            alt="cartoon image of women completing different milestone to achieve award"
-          />
-          <p>Ongoing project.</p>
-          <p1> Skills used: = </p1>
-        </section>
-        <!-- section for project 4-->
-        <section id="projects">
-          <h3>Project 4</h3>
-          <!-- insert project 4  image-->
-          <img
-            class="projectimage"
-            src="./assets/images/p1.jpg"
-            alt="cartoon image of women with clipboard surrounded by project info"
-          />
-          <p>Ongoing project.</p>
-          <p1> Skills used: = </p1>
-        </section>
+          <div class="card-body">
+            <h5 class="card-title">Quiz </h5>
+            <p class="card-text">
+              In this project, I created a timed quiz using Javascript fundamentals which stores high scores, so that progress can be compared to my peers and viewed on a highscores page.
+ The quiz contains 5 questions. Once the user starts the quiz, the timer is automatically initiated and the first question with 5 answer choices appear on the screen. If the user clicks on a correct, they move onto the next question. If they click on a incorrect answer, they will not move onto the next question and 5 second will be deducted from the remaining time for completing the quiz. Once they have completed the quiz, the user can enter their initials onto the scoreboard.
+              Skills used: HTML layout, CSS styling, Javascript
+            </p>
+            <a href="#!" class="btn btn-primary">Git repo</a>
+          </div>
+
+
+          <div class="card">
+            <img
+              src="./img/travelapp.png"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Travel Companion </h5>
+              <p class="card-text">
+                In this project, I have created a travel app which allows the user to find information about the countries of the world it includes information such as, language spoken, currency converter, vaccines and places to see.
+                Skills used: HTML layout, CSS styling, Semantic UI Framework, Javascript, jQuery
+              </p>
+              <a href="#!" class="btn btn-primary">Git repo</a>
+            </div>
+
+            <div class="card">
+              <img
+                src="./img/weatherdashboard.png"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Weather Dashboard </h5>
+                <p class="card-text">
+                  In this project, I have created a weather dashboard using an API., which allows weather data for the next 5 days to be retrieved and displayed onto the dashboard once a city is searched by the user via the search bar. 
+                  Skills used: HTML layout, Javascript, CSS styling, Web API
+                </p>
+                <a href="#!" class="btn btn-primary">Git repo</a>
+              </div>
       </div>
     </main>
     <!-- section for contact us -->
