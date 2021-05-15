@@ -255,8 +255,7 @@ div h2 {
 .pblogo {
   background-color: #1d3557;
   padding-top: 150px;
-}
-
-.logo {
+  text-align: center;
+  display: block;
   background-size: cover;
 }
