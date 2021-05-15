@@ -131,27 +131,6 @@ main {
   text-align: center;
 }
 
-/* main section alignment */
-.projectcards {
-  text-align: center;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  display: flex;
-  background-color: #f5f7fa;
-  width: 100%;
-  align-items: center;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 24px;
-}
-
-.card-title {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  border-top: 50px;
-}
-
 /* section font styles and alignment */
 section p {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -165,30 +144,6 @@ section h3 {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 24px;
   font-weight: bold;
-  color: rgb(75, 74, 74);
-  margin-bottom: 5px;
-  text-align: center;
-  margin-top: 30px;
-}
-
-section p1 {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 24px;
-  color: rgb(75, 74, 74);
-  font-style: italic;
-  text-align: center;
-  margin-bottom: 5px;
-  line-height: 25px;
-}
-
-/*contact me section font styles and alignment */
-
-.personaldetails {
-  display: flex;
-  justify-content: center;
-  background-color: #1d3557;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 24px;
   color: rgb(75, 74, 74);
   text-align: center;
   padding: 10px;
@@ -205,21 +160,11 @@ section p1 {
 .fa-instagram,
 .fa-github,
 .fa-linkedin {
-  color: antiquewhite;
+  color: #1d3557;
   display: flex;
   flex: 50%;
   text-align: center;
   width: 100%;
-}
-/* contact me heading style */
-div h2 {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  color: rgb(75, 74, 74);
-  text-align: center;
-  padding: 20px;
-  display: block;
 }
 
 /* tablet viewport break-point (max-width 992px)*/
