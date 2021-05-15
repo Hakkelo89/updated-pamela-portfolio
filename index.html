@@ -35,9 +35,6 @@
   <body>
     <!-- heading here-->
     <header id="mainheading" class="mainheading">
-      <div class="logo">
-      <img src="./img/DUBB.png" />
-      </div>
       <!-- Insert nav here-->
       <div id="container" class="container">
         <nav>
@@ -60,24 +57,31 @@
         </nav>
       </div>
     </header>
-    <!-- section for about me-->
+<!-- section for about me-->
+    <section id="logosection">
+      <div class="pblogo">
+        <img
+          src="./assets/img/DUBB.png"
+          class="logo"
+          alt="pamela logo"/>
+      </div>
+    </section>
     <section id="photosection" class="photosection">
       <!-- image for front and back hover here-->
       <div class="photo">
         <img
-          src="./img/pamelapic2.jpg"
+          src="./assets/img/pamelapic2.jpg"
           class="image-top"
           alt="recent picture of pamela"
         />
         <img
-          src="./img/Pamelapic.jpg"
+          src="./assets/img/Pamelapic.jpg"
           class="image-back"
           alt="recent picture of pamela"/>
       </div>
       <!-- paragraph about me-->
       <div class="cardcontainer">
         <section class="mx-auto my-5" style="max-width: 23rem;">
-          
           <div class="card">
             <div class="card-body">
               <blockquote class="blockquote blockquote-custom bg-white px-3 pt-4">
@@ -98,106 +102,11 @@
                   individually, allowing me to build on my interpersonal skills whilst
                   eager to develop these skills further"
                 </p>
-                <footer class="blockquote-footer pt-4 mt-4 border-top">
-                  Someone famous in
-                  <cite title="Source Title">Source Title</cite>
-                </footer>
               </blockquote>
             </div>
           </div>
         </section>
       </div>
-      <div id="contactme" class="contactme">
-        <!--section for clickable url to socials icons-->
-        <ul>
-          <li>
-            <a
-              class="fa fa-linkedin"
-              href="https://www.linkedin.com/in/pamela-bhopal"
-            ></a>
-          </li>
-          <li>
-            <a
-              class="fa fa-instagram"
-              href="https://www.instagram.com/pxmela__x"
-            ></a>
-          </li>
-          <li>
-            <a
-              class="fa fa-github"
-              style="font-size: 25px"
-              href="https://github.com/pdubb3"
-            ></a>
-          </li>
-        </ul>
-        <p>Mobile: 07887774856</p>
-        <p>Email: pamela.bhopal@icloud.com</p>
-      </div>
-    </section>
-
-    <!-- main section for my projects via flexbox-->
-<main>
-  <div class="ui centered card">
-    <div class="image">
-      <img
-      src="./img/Horiseon.jpg" id="projectimage" />
-    </div>
-    <div class="projectcards">
-        <h5 class="card-title">Code Refactoring </h5>
-          <p class="card-text">
-            In this project, I was able to code refactor an existing site called
-            Horiseon, to make it more accessible and optimized for search
-            engines.
-            Skills used: HTML layout, CSS styling
-          </p>
-          <a href="#!" class="btn btn-primary">Git repo</a>
-        </div>
-
-
-  <div class="ui centered card">
-     <div class="image">
-        <img
-            src="/img/sc1.png" id="projectimage" />
-          </div>
-          <div class="projectcards">
-              <h5 class="card-title">Quiz </h5>
-                <p class="card-text">
-                  In this project, I created a timed quiz using Javascript fundamentals which stores high scores, so that progress can be compared to my peers and viewed on a highscores page.
-                  The quiz contains 5 questions. Once the user starts the quiz, the timer is automatically initiated and the first question with 5 answer choices appear on the screen. If the user clicks on a correct, they move onto the next question. If they click on a incorrect answer, they will not move onto the next question and 5 second will be deducted from the remaining time for completing the quiz. Once they have completed the quiz, the user can enter their initials onto the scoreboard.
-                 Skills used: HTML layout, CSS styling, Javascript
-                </p>
-                <a href="#!" class="btn btn-primary">Git repo</a>
-              </div>
-
-              <div class="ui centered card">
-                <div class="image">
-                  <img
-                  src="./img/travelapp.png" id="projectimage" />
-                </div>
-                <div class="projectcards">
-                    <h5 class="card-title">Travel Companion </h5>
-                      <p class="card-text">
-                        In this project, I have created a travel app which allows the user to find information about the countries of the world it includes information such as, language spoken, currency converter, vaccines and places to see.
-                        Skills used: HTML layout, CSS styling, Semantic UI Framework, Javascript, jQuery
-                      </p>
-                      <a href="#!" class="btn btn-primary">Git repo</a>
-                    </div>
-
-        <div class="ui centered card">
-    <div class="image">
-      <img
-      src="./img/weatherdashboard.png" id="projectimage" />
-    </div>
-    <div class="projectcards">
-        <h5 class="card-title">Weather Dashboard </h5>
-          <p class="card-text">
-            In this project, I have created a weather dashboard using an API., which allows weather data for the next 5 days to be retrieved and displayed onto the dashboard once a city is searched by the user via the search bar. 
-            Skills used: HTML layout, Javascript, CSS styling, Web API
-          </p>
-          <a href="#!" class="btn btn-primary">Git repo</a>
-        </div>
-
-
   </main>
   </body>
 </html>

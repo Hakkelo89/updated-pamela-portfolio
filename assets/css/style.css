@@ -16,10 +16,6 @@ main {
   padding: 50px;
 }
 
-.logo {
-  background-size: cover;
-  background-position: bottom;
-}
 /* pamela dubb heading styles */
 .mainheading h2 {
   font-family: "Cinzel", serif;
@@ -156,15 +152,6 @@ main {
   border-top: 50px;
 }
 
-/* projects alignment and border style */
-.horiseon,
-.projectimage {
-  border: 2px solid black;
-  padding: 10px;
-  border-radius: 4px;
-  position: relative;
-}
-
 /* section font styles and alignment */
 section p {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -195,9 +182,7 @@ section p1 {
 }
 
 /*contact me section font styles and alignment */
-.contactme {
-  background-color: #1d3557;
-}
+
 .personaldetails {
   display: flex;
   justify-content: center;
@@ -215,7 +200,6 @@ section p1 {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
 }
 /* icon style */
 .fa-instagram,
@@ -259,11 +243,20 @@ div h2 {
 .blockquote-custom-icon {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  border-radius: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
   top: -40px;
   left: 19px;
+}
+
+.pblogo {
+  background-color: #1d3557;
+  padding-top: 150px;
+}
+
+.logo {
+  background-size: cover;
 }
