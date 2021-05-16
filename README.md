@@ -1,65 +1,80 @@
-Pamela's Portfolio- All about me
+# Pamela's Portfolio
+
+<h2> Table of Contents </h2>
+
+- [Project Link](#project-link)
+- [Description](#description)
+- [What did we do](#what-did-we-do)
+- [Getting Started](#getting-started)
+- [Screenshots](#screenshots)
 
 ## Project link
 
-Click [here](https://github.com/PDUBB3/pamela_portfolio.git) to view project on Github pages
+Click [here](https://pdubb3.github.io/updated-pamela-portfolio/) to view project on Github pages
 
 ## Description
 
-As an employee, we were tasked to create a deployed portfolio of work sample. This is so the sample of work can be reviewed and assessed to identify whether we would be a good candidate for an open position.
+In this project, I have created a updated version of my original personal portfolio. In this portfolio I have created the following additional pages;
+
+- About me
+- My projects
+- Contact me
+- Downloadable CV
 
 ## What did we do?
 
-Create files from scratch our selves
-include the following elements into our portfolio:
+Created a updated portfolio which includes the following requirements:
 
-- [x] Full name at the top of our portfolio
-- [x] Recent picture of ourself
-- [x] Navigation bar that links to 3 sections - About us/ Our projects/ Contact details
-- [x] `ALT` attributes for all images
-- [x] Link projects through image or link to open up GitHub repository for that project
-- [x] First application image should be larger in size than others
-- [x] Responsive layout
-- [x] Layout must adapt to different screens
-- [x] `README` must contain screenshots,decription, links to deployed application.
-- [x] Use Semantic HTML
-- [x] Use Flexbox
-- [x] Use Media Queries
-- [x] Use CSS variables
+- [x] Updated portfolio featuring Project 1 and 2 homework assignments.
+- [x] Display fullname, email and number.
+- [x] Links to Github profile and LinkedIn profile.
+- [x] Link to downloadable PDF of resume.
+- [x] Updated portfolio featuring Project 1 and 2 homework assignment, including title, link to deployed version, github and screenshot of application.
+- [x] Mobile responsive user interface
+- [x] Colour palette chosen from coolers
+- [x] Updated GitHub profile
 
 ## Getting started
 
-- Create a new GitHub repository called pamela_portfolio
+- Create a new GitHub repository called updated-pamela_portfolio
 - Clone github project onto your local machine
 - Navigate into the project
 
 - Open the project into VS code
 
 ```
-git clone git@github.com:PDUBB3/pamela_portfolio.git
-cd pamela_portfolio
+git clone git@github.com:PDUBB3/updated-pamela_portfolio.git
+cd updated-pamela_portfolio
 code .
 ```
 
 - Create `README.MD` file
 - Create `index.html` file
-- Create assets, and images folder
+- Create `myprojects.html` file
+- Create `contactme.html` file
+- Create `aboutme.html` file
+- Create assets, cv, js and images folder
 - Create `Style.css` file
+- Create `projects.js` file
 
 ## Screenshots
 
-### Screenshot showing Iphone 5/SE layout
+### Screenshot showing homepage of portfolio
 
-![image](./assets/images/iphone%205SE%20screenshot.png "Iphone 5/SE Layout Screenshot")
+![image](./assets/img/pameladubbpage.png "homepage")
 
-### Screenshot showing responsive layout
+### Screenshot showing about me page
 
-![image](./assets/images/responsive%20screenshot.png "Responsive Layout Screenshot")
+![image](./assets/img/pameladubbaboutme.png "about me page")
 
-## Link to Deployed Application
+### Screenshot showing my projects page
 
-Click [here](https://pdubb3.github.io/pamela_portfolio/) to deployed application
+![image](./assets/img/myprojects.png "projectpage")
 
-```
+### Screenshot showing contact me page
 
-```
+![image](./assets/img/contactme.png "contact me page")
+
+### Screenshot showing responsive layout on iphone
+
+![image](./assets/img/phone.png "Responsive Layout Screenshot")
