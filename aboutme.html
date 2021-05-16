@@ -8,23 +8,6 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
       integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
       crossorigin="anonymous"
@@ -33,10 +16,11 @@
     <link rel="stylesheet" href="styles.4edebbf81f4a1f1bb8df.css">
   </head>
   <body>
-    <!-- heading here-->
-    <header id="mainheading" class="mainheading">
+    <main>
+    <!-- main heading here-->
+      <header id="mainheading" class="mainheading">
       <!-- Insert nav here-->
-      <div id="container" class="container">
+        <div id="container" class="container">
         <nav>
           <!--insert links here for each section-->
           <ul>
@@ -52,18 +36,20 @@
             <li>
               <a href="./contactme.html"> Contact me </a>
             </li>
+              <!-- Downloadable CV in nav bar-->
             <li>
               <a class="fas fa-file-download" href="./assets/CV/Pamela Dubb CV.pdf"> CV 
               </a>
             </li>
           </ul>
         </nav>
-      </div>
-    </header>
-    <section id="photosection" class="photosection">
+        </div>
+      </header>
+    <!-- stackable grid 2 column layout for picture and blockquote first column-->
+     <section id="photosection" class="photosection">
       <div class="ui stackable two column grid centered">
-        <div class="ui segement">
-                <!-- image for front and back hover here-->
+      <div class="ui segement">
+      <!-- image for front and back hover here-->
       <div class="ui centered photo">
         <img
           src="./assets/img/pamelapic2.jpg"
@@ -75,13 +61,15 @@
           class="image-back"
           alt="recent picture of pamela"/>
       </div>
-        </div>
-        <div class="column">
-                <!-- paragraph about me-->
+      </div>
+      <!-- stackable grid layout for picture and blockquote second column-->
+      <div class="column">
+      <!-- about me cards in container -->
       <div class="cardcontainer">
         <section>
           <figure class="quote">
             <div class="card-body">
+      <!-- block quote created within about me container-->
               <blockquote>
                 <p class="mb-0 mt-2 font-italic">
                   "Currently working as a Scheme Project Manager at Network Rail's
@@ -101,13 +89,9 @@
               </figcaption>
             </figure>
             </div>
-        </div>
       </div>
-
-
-        </section>
       </div>
-  </main>
+      </section>
+    </main>
   </body>
 </html>
-

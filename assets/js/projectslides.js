@@ -31,6 +31,6 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-$(".special.centered.cards .image").dimmer({
+$(".special.cards .image").dimmer({
   on: "hover",
 });
