@@ -76,158 +76,41 @@
         </nav>
       </div>
     </header>
-    <div class="pblogo">
-      <img src="./assets/img/DUBB.png" class="logo" alt="pamela logo" />
-    </div>
-    <section class="section">
-      <!--Section heading-->
-      <h2 class="section-heading h1 pt-4">Contact us</h2>
-      <!--Section description-->
-      <p class="section-description">Get in touch by dropping a message!</p>
-
-      <div class="row">
-        <!--Grid column-->
-        <div class="col-md-8 col-xl-9">
-          <form
-            id="contact-form"
-            name="contact-form"
-            action="mail.php"
-            method="POST"
-            onsubmit="return validateForm()"
-          >
-            <!--Grid row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-md-6">
-                <div class="md-form">
-                  <div class="md-form">
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      class="form-control"
-                    />
-                    <label for="name" class="">Your name</label>
-                  </div>
-                </div>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-md-6">
-                <div class="md-form">
-                  <div class="md-form">
-                    <input
-                      type="text"
-                      id="email"
-                      name="email"
-                      class="form-control"
-                    />
-                    <label for="email" class="">Your email</label>
-                  </div>
-                </div>
-              </div>
-              <!--Grid column-->
-            </div>
-            <!--Grid row-->
-
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-md-12">
-                <div class="md-form">
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    class="form-control"
-                  />
-                  <label for="subject" class="">Subject</label>
-                </div>
-              </div>
-            </div>
-            <!--Grid row-->
-
-            <!--Grid row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-md-12">
-                <div class="md-form">
-                  <textarea
-                    type="text"
-                    id="message"
-                    name="message"
-                    class="md-textarea"
-                  ></textarea>
-                  <label for="message">Your message</label>
-                </div>
-              </div>
-            </div>
-            <!--Grid row-->
-          </form>
-
-          <div class="center-on-small-only">
-            <a class="btn btn-primary" onclick="validateForm();">Send</a>
-          </div>
-          <div class="status" id="status"></div>
+    <main>
+      <div class="pblogo">
+        <img src="./assets/img/DUBB.png" class="logo" alt="pamela logo" />
+      </div>
+      <section class="section">
+        <div>
+          <h3 class="section-description pt-4">Get in touch!</h3>
+          <p>Mobile : 07887774856</p>
+          <p>Email: Pamela.bhopal@icloud.com</p>
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-md-4 col-xl-3 centered">
-          <ul class="contact-icons">
+        <div id="contactme" class="contactme">
+          <!--section for clickable url to socials icons-->
+          <ul>
             <li>
-              <i class="fa fa-map-marker fa-2x"></i>
-              <p>Birmingham, UK</p>
+              <a
+                class="fa fa-linkedin"
+                href="https://www.linkedin.com/in/pamela-bhopal"
+              ></a>
             </li>
-
             <li>
-              <i class="fa fa-phone fa-2x"></i>
-              <p>07887774856</p>
+              <a
+                class="fa fa-instagram"
+                href="https://www.instagram.com/pxmela__x"
+              ></a>
             </li>
-
             <li>
-              <i class="fa fa-envelope fa-2x"></i>
-              <p>Pamela.bhopal@icloud.com</p>
+              <a
+                class="fa fa-github"
+                style="font-size: 25px"
+                href="https://github.com/pdubb3"
+              ></a>
             </li>
           </ul>
         </div>
-        <!--Grid column-->
-      </div>
-    </section>
-    <section>
-      <div id="contactme" class="contactme">
-        <!--section for clickable url to socials icons-->
-        <ul>
-          <li>
-            <a
-              class="fa fa-linkedin"
-              href="https://www.linkedin.com/in/pamela-bhopal"
-            ></a>
-          </li>
-          <li>
-            <a
-              class="fa fa-instagram"
-              href="https://www.instagram.com/pxmela__x"
-            ></a>
-          </li>
-          <li>
-            <a
-              class="fa fa-github"
-              style="font-size: 25px"
-              href="https://github.com/pdubb3"
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.js"></script>
-    <script src="./assets/js/contact.js"></script>
+      </section>
+    </main>
   </body>
 </html>
