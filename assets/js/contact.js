@@ -1,3 +1,4 @@
+// function to validate form, if empty prompt name, email, subject,message cannot be empty
 function validateForm() {
   var name = document.getElementById("name").value;
   if (name == "") {

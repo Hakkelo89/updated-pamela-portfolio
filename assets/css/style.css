@@ -26,16 +26,6 @@ main {
   padding-top: 5px;
 }
 
-/* all about me heading styles */
-.mainheading h4 {
-  font-family: "Bitter", serif;
-  font-family: "Cinzel", serif;
-  color: #f1faee;
-  text-align: left;
-  margin-top: 10px;
-  margin: 10px;
-  padding-top: 5px;
-}
 /* container details */
 .container {
   width: 80%;
@@ -122,14 +112,6 @@ main {
   border-radius: 50%;
 }
 
-.aboutme p {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 24px;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
-
 /* section font styles and alignment */
 section p {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -179,7 +161,7 @@ section h3 {
     width: 100%;
   }
 }
-
+/* background colour behind pamela dubb logo)*/
 .pblogo {
   background-color: #1d3557;
   padding-top: 150px;
@@ -187,7 +169,7 @@ section h3 {
   display: block;
   background-size: cover;
 }
-
+/* blockquote styling*/
 .quote {
   margin: 0;
   background: #eee;
@@ -247,7 +229,7 @@ section h3 {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: darkgrey;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -306,18 +288,4 @@ section h3 {
   to {
     opacity: 1;
   }
-}
-
-.map-container-section {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-.map-container-section iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
 }
